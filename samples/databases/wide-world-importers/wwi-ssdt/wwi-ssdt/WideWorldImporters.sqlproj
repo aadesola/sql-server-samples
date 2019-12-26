@@ -789,6 +789,7 @@
     <Build Include="WebApi\Views\TransactionTypes.sql" />
     <Build Include="WebApi\Views\DeliveryMethods.sql" />
     <Build Include="WebApi\Views\PaymentMethods.sql" />
+    <Build Include="Sequences\CustomerSpecialDealID.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="PostDeploymentScripts\Script.PostDeployment1.sql" />

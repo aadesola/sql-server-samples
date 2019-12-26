@@ -7,7 +7,8 @@ AS
 BEGIN
     SELECT TOP(@MaximumRowsToReturn)
            si.StockItemID,
-           si.StockItemName
+           si.StockItemName,
+		   si.Brand
     FROM Warehouse.StockItems AS si
     WHERE si.SearchDetails LIKE N'%' + @SearchText + N'%'
     ORDER BY si.StockItemName
